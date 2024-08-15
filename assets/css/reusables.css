@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Kufam:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "cairo", sans-serif;
+}
+
+:root {
+  --cards-background-color: rgb(57, 57, 57);
+  --background-gradient: linear-gradient(
+    90deg,
+    rgba(57, 57, 57, 1) 0%,
+    rgba(87, 85, 86, 1) 100%
+  );
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Kufam", sans-serif;
+  font-weight: 700;
+}
+
+.container {
+  width: 95%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-between {
+  align-items: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+img {
+  width: 100%;
+}
