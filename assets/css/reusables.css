@@ -8,6 +8,8 @@
 }
 
 :root {
+  --black-color: #030712;
+  --gray-color: #d1d5db;
   --cards-background-color: rgb(57, 57, 57);
   --background-gradient: linear-gradient(
     90deg,
@@ -48,6 +50,10 @@ h6 {
   justify-content: center;
 }
 
+.justify-content-end {
+  justify-content: flex-end;
+}
+
 .align-items-between {
   align-items: space-between;
 }
@@ -56,6 +62,14 @@ h6 {
   align-items: center;
 }
 
+.align-items-end {
+  align-items: flex-end;
+}
+
 img {
   width: 100%;
+}
+
+li {
+  list-style: none;
 }
