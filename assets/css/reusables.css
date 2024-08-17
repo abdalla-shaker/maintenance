@@ -9,10 +9,18 @@
 
 :root {
   --black-color: #030712;
+  --white-color: #f8fafc;
   --gray-color: #d1d5db;
+  --red-color: #991b1b;
   --cards-background-color: rgb(57, 57, 57);
-  --background-gradient: linear-gradient(
+  --left-to-right-background-gradient: linear-gradient(
     90deg,
+    rgba(57, 57, 57, 1) 0%,
+    rgba(87, 85, 86, 1) 100%
+  );
+
+  --background-gradient: linear-gradient(
+    360deg,
     rgba(57, 57, 57, 1) 0%,
     rgba(87, 85, 86, 1) 100%
   );
@@ -32,6 +40,7 @@ h6 {
   width: 95%;
   max-width: 1440px;
   margin: 0 auto;
+  text-align: right;
 }
 
 .d-flex {
@@ -72,4 +81,36 @@ img {
 
 li {
   list-style: none;
+}
+
+a:link.button,
+a:visited.button {
+  background-color: var(--white-color);
+  color: var(--black-color);
+  text-decoration: none;
+  border: none;
+  padding: 1em 2em;
+  border-radius: 0.5em;
+  transition: background-color 0.3s ease-in-out;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+a:hover.button,
+a:hover.button {
+  background-color: var(--gray-color);
+}
+
+.sub-title {
+  color: var(--red-color);
+  display: inline-block;
+  font-size: 1.3em;
+  margin-bottom: 0.6em;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 3em;
+  margin-bottom: 0.8em;
+  font-weight: 600;
 }
