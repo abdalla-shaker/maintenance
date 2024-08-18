@@ -55,11 +55,11 @@
   }
 
   .hero-container .text-container h1 {
-    color: var(--black-color);
+    color: #fef9c3;
   }
 
   .hero-container .text-container p {
-    color: var(--black-color);
+    color: #ecfccb;
     text-shadow: 0 0 10px var(--black-color);
     font-weight: 600;
   }
