@@ -9,6 +9,7 @@
 
 :root {
   --black-color: #030712;
+  --gray-black-color: #f9fafb;
   --white-color: #f8fafc;
   --gray-color: #d1d5db;
   --red-color: #991b1b;
@@ -113,4 +114,8 @@ a:hover.button {
   font-size: 3em;
   margin-bottom: 0.8em;
   font-weight: 600;
+}
+
+.mobile-image {
+  display: none;
 }
