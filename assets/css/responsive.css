@@ -61,6 +61,7 @@
   .hero-container .text-container p {
     color: var(--black-color);
     text-shadow: 0 0 10px var(--black-color);
+    font-weight: 600;
   }
 }
 
