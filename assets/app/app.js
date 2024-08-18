@@ -29,6 +29,7 @@ class SetProduct {
   }
 
   render() {
+    let generatedElements = []
     const prodArrays = this.settingProductsArray();
     for (const prod of prodArrays) {
       const imgCont = document.createElement("div");
@@ -39,8 +40,18 @@ class SetProduct {
         <img src="assets/images/landing page/${prod.imgSrc}.webp" alt="logo image" class="${prodSrcWithoutSpaces}"/>
       </a>
       `;
-      companiesContainer.append(imgCont);
-      companiesWeServe.append(imgCont);
+      generatedElements.push(imgCont);
+    }
+    return generatedElements;
+  }
+}
+
+class RenderingImgs {
+  render(element) {
+    const generateElements = new SetProduct();
+    const elements = generateElements.render();
+    for (const el of elements) {
+      element.append(el);
     }
   }
 }
@@ -100,8 +111,9 @@ class Card {
 
 class App {
   render() {
-    const products = new SetProduct();
-    products.render();
+    const products = new RenderingImgs();
+    products.render(companiesContainer);
+    products.render(companiesWeServe)
     const cards = new Card();
     cards.render();
   }
