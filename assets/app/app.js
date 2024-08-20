@@ -29,7 +29,7 @@ class SetProduct {
   }
 
   render() {
-    let generatedElements = []
+    let generatedElements = [];
     const prodArrays = this.settingProductsArray();
     for (const prod of prodArrays) {
       const imgCont = document.createElement("div");
@@ -62,7 +62,7 @@ class Card {
       new CardText(
         "خدمات الشركة",
         `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#fff" viewBox="0 0 256 256"><path d="M240,208h-8V72a8,8,0,0,0-8-8H184V40a8,8,0,0,0-8-8H80a8,8,0,0,0-8,8V96H32a8,8,0,0,0-8,8V208H16a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16ZM40,112H80a8,8,0,0,0,8-8V48h80V72a8,8,0,0,0,8,8h40V208H152V168a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v40H40Zm96,96H120V176h16ZM112,72a8,8,0,0,1,8-8h16a8,8,0,0,1,0,16H120A8,8,0,0,1,112,72Zm0,32a8,8,0,0,1,8-8h16a8,8,0,0,1,0,16H120A8,8,0,0,1,112,104Zm56,0a8,8,0,0,1,8-8h16a8,8,0,0,1,0,16H176A8,8,0,0,1,168,104ZM88,136a8,8,0,0,1-8,8H64a8,8,0,0,1,0-16H80A8,8,0,0,1,88,136Zm0,32a8,8,0,0,1-8,8H64a8,8,0,0,1,0-16H80A8,8,0,0,1,88,168Zm24-32a8,8,0,0,1,8-8h16a8,8,0,0,1,0,16H120A8,8,0,0,1,112,136Zm56,0a8,8,0,0,1,8-8h16a8,8,0,0,1,0,16H176A8,8,0,0,1,168,136Zm0,32a8,8,0,0,1,8-8h16a8,8,0,0,1,0,16H176A8,8,0,0,1,168,168Z"></path></svg>`,
-        "صيانة الاجهزة الكهربائية (الثلاجات – غسالات الملابس – غسالات  الاطباق – الميكرويف )"
+        "صيانة الاجهزة الكهربائية (الثلاجات – غسالات الملابس – غسالات  الاطباق – الميكرويف - شاشات التلفزيون )"
       ),
 
       new CardText(
@@ -113,7 +113,7 @@ class App {
   render() {
     const products = new RenderingImgs();
     products.render(companiesContainer);
-    products.render(companiesWeServe)
+    products.render(companiesWeServe);
     const cards = new Card();
     cards.render();
   }
