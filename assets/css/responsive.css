@@ -63,14 +63,20 @@
   }
 
   .hero-container .text-container h1 {
-    color: #fef9c3;
+    /* color: #fef9c3; */
   }
 
   .hero-container .text-container p {
-    color: #ecfccb;
+    /* color: #ecfccb; */
     text-shadow: 0 0 10px var(--black-color);
     font-weight: 600;
     padding: 0.5em;
+  }
+}
+
+@media (max-width: 850px) {
+  .services-container br {
+    display: none;
   }
 }
 
@@ -110,6 +116,12 @@
   .hero-container .text-container p {
     font-size: 1em;
     font-weight: 600;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    text-align: center;
   }
 }
 
