@@ -49,11 +49,6 @@
     z-index: -1;
   }
 
-  /* .hero-container .img-container {
-    position: absolute;
-    z-index: -1;
-  } */
-
   .hero-container .text-container {
     position: static;
     padding: 0 1em 1em;
@@ -62,12 +57,7 @@
     text-align: center;
   }
 
-  .hero-container .text-container h1 {
-    /* color: #fef9c3; */
-  }
-
   .hero-container .text-container p {
-    /* color: #ecfccb; */
     text-shadow: 0 0 10px var(--black-color);
     font-weight: 600;
     padding: 0.5em;

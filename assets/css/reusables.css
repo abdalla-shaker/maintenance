@@ -119,3 +119,7 @@ a:hover.button {
 .mobile-image {
   display: none;
 }
+
+body.active {
+  overflow: hidden;
+}

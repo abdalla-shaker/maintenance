@@ -124,6 +124,7 @@ app.render();
 
 const togglingActiveClass = function (element) {
   element.classList.toggle("active");
+  document.body.classList.toggle("active");
 };
 
 burgerIcon.addEventListener("click", () => {
