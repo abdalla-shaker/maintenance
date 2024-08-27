@@ -1,0 +1,257 @@
+:root {
+  --lg-primary-color: #a50034;
+  --lg-hover-color: #760025;
+}
+
+/* Header section */
+.hero .hero-container {
+  position: relative;
+}
+
+.hero .hero-image {
+  position: relative;
+  isolation: isolate;
+  z-index: -1;
+}
+
+.hero .hero-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.hero .hero-text {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  translate: 0 -50%;
+}
+
+.hero .hero-text h1 {
+  font-size: 2.5em;
+  color: var(--black-color);
+  margin-bottom: 0.5em;
+}
+
+.hero .hero-text p {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-bottom: 1.2em;
+}
+
+.hero .hero-text a {
+  color: var(--white-color);
+  background-color: var(--lg-primary-color);
+  padding: 0.5em 2em;
+  border-radius: unset;
+}
+
+.hero .hero-text a:hover {
+  background-color: var(--lg-hover-color);
+}
+/* End of Header section */
+
+/* Services section */
+.cards {
+  margin-top: -10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1em;
+  position: relative;
+  z-index: 1;
+}
+
+.card {
+  padding: 2em 1em;
+  background-color: #fff;
+  text-align: center;
+  color: var(--black-color);
+  box-shadow: 0 0 24px #ccc;
+}
+
+.card svg {
+  display: inline-block;
+  margin-bottom: 0.5em;
+  width: 70px;
+  height: 70px;
+  fill: var(--lg-primary-color);
+}
+
+.card-title {
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.card-text {
+  text-align: center;
+}
+/* End of Services section */
+
+/* About us section */
+.about-us-container {
+  margin-top: 5em;
+  position: relative;
+  background: url("../../images/company\ 4/about us.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-us-container .about-us-text {
+  max-width: 629px;
+  height: 600px;
+  /* top: 0; */
+  background-color: #ffffff95;
+  /* position: absolute; */
+  padding: 1em;
+}
+
+.about-us-container .about-us-text .title {
+  margin-bottom: 0.5;
+}
+
+.about-us-container .about-us-text .about-us-first-p {
+  margin-bottom: 0.5em;
+}
+
+.about-us-container .about-us-text p {
+  font-size: 1em;
+  color: #444;
+  font-weight: 700;
+}
+/* End of About us section */
+
+/* LG maintenance services section */
+.maintenance-services-container {
+  margin-top: 5em;
+  position: relative;
+}
+
+.maintenance-services-text {
+  color: var(--white-color);
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.maintenance-services-text p {
+  text-shadow: 0 0 5px black;
+}
+
+.LG-services-cards {
+  gap: 1.2em;
+  margin-top: -15em;
+}
+
+.LG-services-cards .card {
+  padding: unset;
+  text-align: right;
+  max-width: 696px;
+  min-width: 400px;
+  justify-self: center;
+}
+
+.LG-services-cards .row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.LG-services-cards .row:last-child {
+  margin-bottom: 0;
+}
+
+.LG-services-cards .card h3,
+.LG-services-cards .card p {
+  padding: 0 16px;
+  /* margin-top: -1.8em; */
+}
+
+.LG-services-cards .card h3 {
+  text-shadow: 0 0 10px var(--white-color);
+  font-size: 2em;
+  margin-top: 0.5em;
+}
+
+.LG-services-cards .card p {
+  margin-top: -0.5em;
+  padding-bottom: 1em;
+}
+
+.LG-services-cards .card .image-cont {
+  max-height: 441px;
+}
+
+.LG-services-cards .card img {
+  max-height: 441px;
+}
+/* End of LG maintenance services section */
+
+/* FAQ section */
+.faq-container {
+  margin-top: 5em;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 1em;
+}
+
+.faq-container h2 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.faq-container .right-side p {
+  font-size: 1.2em;
+}
+
+.faq-container .faq {
+  cursor: pointer;
+  margin-bottom: 2em;
+}
+
+.faq-container .faq .cont {
+  flex-direction: row-reverse;
+  border-bottom: 1px solid var(--gray-color);
+  padding: 1em 0;
+}
+
+.faq-container .faq h3 {
+  color: var(--black-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.faq-container .faq svg {
+  fill: #000;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+.faq-container .faq.active h3 {
+  color: var(--lg-primary-color);
+}
+
+.faq-container .faq.active svg {
+  fill: var(--lg-primary-color);
+  rotate: 180deg;
+}
+
+.faq-container .faq .answer {
+  margin-top: 2em;
+  overflow: hidden;
+  max-height: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.faq-container .faq .answer.active {
+  max-height: 300px;
+}
+/* End of FAQ section */
