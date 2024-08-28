@@ -4,7 +4,7 @@
 }
 
 /* Header section */
-.hero .hero-container {
+.hero .company-hero-container {
   position: relative;
 }
 
@@ -139,6 +139,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  background-color: #ffffff10;
+  padding: 1em;
+}
+
+.maintenance-services-text br {
+  display: none;
 }
 
 .maintenance-services-text p {
@@ -154,7 +160,7 @@
   padding: unset;
   text-align: right;
   max-width: 696px;
-  min-width: 400px;
+  min-width: 300px;
   justify-self: center;
 }
 
