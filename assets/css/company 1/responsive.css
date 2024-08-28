@@ -7,7 +7,7 @@
         position: static;
         transform: unset;
         width: 100%;
-        background-image: url("/assets/images/company\ 4/service image.webp");
+        background-image: url("/assets/images/company\ 4/service\ image.webp");
         background-repeat: no-repeat;
         background-size: cover;
         padding: 10em 0;
@@ -47,7 +47,7 @@
 @media (max-width: 1000px) {
     .hero-container {
         width: 100%;
-        background-image: url("/assets/images/company\ 4/hero image.webp");
+        background-image: url("/assets/images/company\ 4/hero\ image.webp");
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
