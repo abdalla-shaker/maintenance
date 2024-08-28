@@ -34,7 +34,7 @@
 
   .hero-container {
     width: 100%;
-    background-image: url("/assets/images/landing\ page/mobile\ hero\ image.webp");
+    background-image: url("../images/landing\ page/mobile\ hero\ image.webp");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
