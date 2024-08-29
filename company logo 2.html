@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reusables.css" />
+    <link rel="stylesheet" href="assets/css/company/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/company/responsive.css" />
+    <link rel="stylesheet" href="assets/css/zannusi/style.css" />
+    <script src="assets/app/company 2/app.js" defer></script>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div
+        class="container header-container d-flex justify-content-between align-items-center"
+      >
+        <nav class="nav">
+          <div class="burger-icon" id="burger-icon">
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+          </div>
+          <ul class="nav-links d-flex">
+            <div class="links-container d-flex align-items-end flex-column">
+              <li>
+                <div class="home-nav d-flex align-items-center">
+                  <div
+                    class="contact d-flex align-items-center justify-content-center"
+                  >
+                    <a href="#">تواصل معنا</a>
+                  </div>
+                  <div
+                    class="home d-flex align-items-center justify-content-center"
+                  >
+                    <a href="#">الرئيسية</a>
+                  </div>
+                </div>
+              </li>
+              <li><h2>مراكز الصيانة المعتمده</h2></li>
+              <li class="companies-container" id="companies-container"></li>
+            </div>
+          </ul>
+        </nav>
+        <div class="logo">
+          <img src="public/logo.webp" alt="logo" />
+        </div>
+      </div>
+      <div class="nav-overLay"></div>
+    </header>
+
+    <main class="hero" id="hero">
+      <div class="container hero-container">
+        <div class="hero-image">
+          <img
+            src="assets/images/company 2/hero image.webp"
+            alt="A man looking at a tv"
+          />
+        </div>
+        <div class="hero-text d-flex flex-column align-items-end">
+          <h1>Zanussi مركز صيانة أجهزة</h1>
+          <p>
+            شركة زانوسي الإيطالية تقدم لعملائها في مصر خدمات صيانة متكاملة
+            للأجهزة الإلكترونية من<br />
+            ماركة زانوسي. نحن متخصصون في صيانة جميع أنواع غسالات زانوسي، سواء
+            كانت غسالات<br />
+            ملابس أو غسالات أطباق، بالإضافة إلى صيانة الثلاجات، سخانات المياه،
+            المكانس الكهربائية،<br />
+            والتكييفات الخاصة بشركة زانوسي. لا نغفل أيضاً صيانة غسالات الأطباق
+            الخاصة بإيديال زانوسي.<br />
+            للتواصل مع فريق خدمة العملاء والدعم الفني، يمكنكم الاتصال بأرقام
+            صيانة زانوسي أو<br />
+            استخدام الخط الساخن المخصص للصيانة. نحن هنا لضمان تقديم أفضل خدمة
+            لكم من خلال دعمنا<br />
+            الفني المتخصص.
+          </p>
+          <div class="button-group">
+            <a
+              href="#"
+              class="button d-flex justify-content-center align-items-center"
+              >اتصل بنا</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="services" id="services">
+      <div class="container services-container">
+        <div class="cards" id="cards"></div>
+      </div>
+    </section>
+
+    <section class="about-us" id="about-us">
+      <div class="container about-us-container">
+        <div class="about-us-image">
+          <!-- <img
+            src="assets/images/company 1/about us.webp"
+            alt="camera taking picture of a TV"
+          /> -->
+        </div>
+
+        <div class="about-us-text d-flex flex-column align-items-end">
+          <span class="sub-title">في مصر zanussi توكيل صيانة</span>
+          <h2 class="title">مركز صيانه ال جي معتمد</h2>
+          <p class="about-us-first-p">
+            نحن الوكيل المعتمد من شركة زانوسى في مصر والشرق الأوسط، متخصصون في
+            صيانة أجهزة زانوسى بجميع محافظات مصر. نقدم خدمة صيانة شاملة وسريعة
+            لجميع أجهزة زانوسى، مع ضمان توفير الخدمة داخل منزلك وفي أقصر وقت
+            ممكن. نهدف إلى تقديم خدمة متميزة لعملاء زانوسى، مما يجعلنا الخيار
+            الأول لدعم وصيانة أجهزة زانوسى في المنطقة
+          </p>
+          <p>
+            نمتلك فريقًا متكاملًا من المهندسين والفنيين المتخصصين والمدربين على
+            أعلى مستوى في صيانة الأجهزة المنزلية والكهربائية. بالإضافة إلى أسطول
+            من السيارات المتنقلة المجهزة بأحدث التقنيات، لضمان صيانة جميع
+            الأجهزة الإلكترونية والوصول إلى عملائنا في كافة أنحاء الجمهورية
+            بسرعة وكفاءة عالية
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="LG-maintenance-services" id="LG-maintenance-services">
+      <div class="container maintenance-services-container">
+        <div class="maintenance-services-image">
+          <img
+            src="assets/images/company 2/service image.webp"
+            alt="lg image"
+          />
+        </div>
+        <div class="maintenance-services-text">
+          <h2 class="title">مجموعة شركات زانوسى</h2>
+          <p>
+            شركة زانوسى تُعد واحدة من الشركات الرائدة في مجال الأجهزة المنزلية،
+            حيث تقدم خدمات صيانة<br />
+            وإصلاح متكاملة لجميع منتجاتها في مختلف أنحاء الجمهورية. نحن هنا
+            لتوفير دعم فني شامل<br />
+            على مدار الأسبوع، واستعداد للإجابة على كافة استفساراتكم من خلال
+            أرقام تليفونات<br />
+            صيانة زانوسى المتاحة دائماً
+          </p>
+        </div>
+        <div class="LG-services-cards" id="LG-services-cards">
+          <div class="row">
+            <div class="card">
+              <div class="image-cont">
+                <img
+                  src="assets/images/company 2/refregirator image.webp"
+                  alt="refregirator image"
+                />
+              </div>
+              <h3 class="title">صيانة ثلاجات زانوسى</h3>
+              <p class="text">
+                في مركز صيانة ثلاجات زانوسي، نحرص على تقديم خدمات صيانة شاملة
+                وعالية الجودة لجميع أنواع الأعطال، سواء كانت ظاهرة أو خفية. يقوم
+                فريقنا من الفنيين المؤهلين بتنفيذ كافة خطوات الصيانة التي تم
+                تدريبهم عليها بدقة في مركز صيانة ثلاجات زانوسي بالقاهرة، الجيزة،
+                والإسكندرية. نستخدم أحدث تقنيات الصيانة لتشخيص وإصلاح الأعطال،
+                بما في ذلك فحص تايمر الثلاجة، الماتور، نظام النوفروست، وكشف أي
+                تسرب للفريون. إذا كنت تواجه مشكلة في ثلاجة زانوسي، لا تتردد في
+                الاتصال بخدمة العملاء لدينا، وسنقوم بحل المشكلة بسرعة وفعالية
+              </p>
+            </div>
+            <div class="card">
+              <div class="image-cont">
+                <img
+                  src="assets/images/company 2/microwave image.webp"
+                  alt="tv image"
+                />
+              </div>
+              <h3 class="title">صيانة ميكروويف زانوسي</h3>
+              <p class="text">
+                في شركة زانوسي مصر، ندرك تماماً أهمية تقديم أفضل خدمات الصيانة
+                لأجهزة الميكروويف، سواء لأصحاب المنازل أو المطاعم والمقاهي. نحن
+                نلتزم بتوفير أعلى مستويات الدعم والتصليح للميكروويف من ماركة
+                زانوسي، لضمان بقاء أجهزتكم في حالة ممتازة وبدون أي مشاكل. إذا
+                واجهت أي مشكلة في ميكروويف زانوسي، اتصل بنا على رقم صيانة
+                ميكروويف زانوسي في القاهرة، الجيزة، والإسكندرية، وسنكون سعداء
+                بتقديم الدعم الفني السريع والفعال. نقدم لك معلومات عن الأعطال
+                الشائعة وحلولها، بالإضافة إلى عناوين وأرقام فروعنا المتخصصة في
+                صيانة الميكروويف. نحن هنا لضمان تجربة خالية من المشكلات لك
+                ولأجهزتك.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card">
+              <div class="image-cont">
+                <img
+                  src="assets/images/company 2/dishwasher image.webp"
+                  alt="dryer image"
+                />
+              </div>
+              <h3 class="title">صيانة غسالات أطباق زانوسى</h3>
+              <p class="text">
+                تُعتبر غسالة الأطباق زانوسي من الأدوات الأساسية التي تساعد ربة
+                المنزل في تحقيق التوازن بين مهامها اليومية. مركز صيانة غسالات
+                الأطباق زانوسي يوفر الحلول المثلى لجميع المشكلات التي قد
+                تواجهكم، مثل تسريب المياه، توقف التشغيل، مشاكل في صرف المياه، أو
+                مشاكل في الأداء مثل ضعف التنظيف نتيجة لعيوب في الفلتر أو أجزاء
+                أخرى. عند اختيار غسالة أطباق زانوسي من توكيل الصيانة، تضمنون
+                الحصول على جهاز يتمتع بمواصفات عالمية تساعد في جعل عملية التنظيف
+                أكثر سهولة وفعالية. نحن هنا لتقديم الدعم الكامل لضمان أن غسالة
+                الأطباق الخاصة بكم تعمل بكفاءة عالية
+              </p>
+            </div>
+            <div class="card">
+              <div class="image-cont">
+                <img
+                  src="assets/images/company 2/freezer image.webp"
+                  alt="freezer image"
+                />
+              </div>
+              <h3 class="title">صيانة ديب فريزر زانوسى</h3>
+              <p class="text">
+                تُعد مراكز صيانة ديب فريزر زانوسي في مصر من الأفضل في تقديم حلول
+                فعالة لجميع مشكلات وأعطال ديب فريزر زانوسي. نعمل على تشخيص
+                مشكلات مثل إضاءة اللمبة الخضراء، توقف إضاءة اللمبة الصفراء،
+                مشاكل في التبريد، تلف التيمر، وتسرب الفريون، بالإضافة إلى العديد
+                من الأعطال الأخرى. تُقدم خدماتنا من خلال فنيين متخصصين في توكيل
+                صيانة زانوسي، الذين يستخدمون قطع غيار أصلية لضمان أداء مثالي
+                لمنتجاتكم. نوصي عملائنا بعدم التعامل مع أي مراكز صيانة غير
+                معتمدة لحماية ديب فريزر زانوسي من الأضرار التي قد تنجم عن
+                استخدام قطع غيار غير أصلية. نحن هنا لضمان أفضل أداء واستدامة
+                لجهازكم
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card">
+              <div class="image-cont">
+                <img
+                  src="assets/images/company 2/washing machine.webp"
+                  alt="washing machine image"
+                />
+              </div>
+              <h3 class="title">صيانة غسالات زانوسى</h3>
+              <p class="text">
+                في مراكز صيانة غسالات زانوسي، سواء الأوتوماتيك أو التوب لود، نحن
+                ملتزمون بتدريب مهندسينا بشكل متكامل لحل جميع مشكلات وأعطال
+                غسالات زانوسي. يشمل تدريبنا كيفية التعامل مع مشكلات مثل تسريب
+                المياه، ارتفاع صوت الغسالة، عدم دوران الحلة، ومشكلات مثل امتلاء
+                الغسالة بالماء بشكل غير طبيعي، وأيضاً مشكلة عدم تصريف المياه.
+                نحرص على تقديم أفضل الحلول لأشهر الأعطال التي قد تواجهها غسالات
+                زانوسي. لذا، تأكد أن توكيل صيانة غسالات زانوسي في مصر جاهز
+                لمعالجة أي مشكلة قد تواجه عملائنا بدقة وكفاءة عالية
+              </p>
+            </div>
+            <div class="card">
+              <div class="image-cont">
+                <img
+                  src="assets/images/company 2/dryer machine.webp"
+                  alt="washing machine image"
+                />
+              </div>
+              <h3 class="title">صيانة مجففات زانوسى</h3>
+              <p class="text">
+                ندرك تماماً أهمية مجففات الملابس في البيوت المصرية، ولهذا فإن
+                مراكز صيانة زانوسي في مصر تلتزم بتقديم حلول فعالة لجميع مشاكل
+                وأعطال مجففات زانوسي. نحن نعمل على تدريب فريق من المهندسين
+                المتخصصين للتعامل مع مشكلات مثل ارتفاع صوت المجفف، عدم دوران
+                الحلة الداخلية، وتوقف المجفف فجأة عن العمل، بالإضافة إلى العديد
+                من الأعطال الأخرى. لضمان الحصول على أفضل خدمة وإصلاح سريع، ننصحك
+                بالتواصل فوراً مع رقم خدمة عملاء توكيل صيانة مجففات زانوسي.
+                فريقنا جاهز لتقديم الدعم الفني وحل جميع مشاكل المجفف بكفاءة
+                عالية وبأسرع وقت ممكن
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq__section" id="faq">
+      <div class="container faq-container">
+        <div class="left-side">
+          <ul class="faqs">
+            <li class="faq">
+              <div
+                class="cont d-flex justify-content-between align-items-center"
+              >
+                <h3 class="unselectable">تشغيل غسالات زانوسي اول مرة</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="answer">
+                <ul>
+                  <li class="unselectable">
+                    اولا تاكد من التوصيلات الكهربائية بين مصدر الكهرباء وفيشة
+                    الكهرباء الخاصة بغسالات ملابس زانوسي ويتم توصيل الكهرباء
+                    ولكن لا تبداء التشغيل
+                  </li>
+                  <li class="unselectable">
+                    ثانيا ينصح توكيل صيانة غسالات زانوسي مصر بالتاكد من الصمام
+                    المياة والتاكد من حنفية الصرف الصحي التي يتم توصيل الصمام
+                    منها
+                  </li>
+                  <li class="unselectable">
+                    ثالثا من ارشادات مراكز غسالات زانوسي مصر ان يتم التاكد من
+                    خرطوم الصرف الخاص بغسالات زانوسي انه في مستوي اعلي من ماسورة
+                    الصرف حتي يتم تشغل الجهاز بشكل سليم
+                  </li>
+                  <li class="unselectable">
+                    رابعا من داخل ورش اصلاح اعطال غسالات زانوسي يجب تشغيل
+                    الغساله زانوسي بدوره خل اولا ليتم تعيقم الجهاز من اي شوائب
+                    او اي رائحة
+                  </li>
+                  <li class="unselectable">
+                    خامسا يحذر توكيل زانوسي للغسالات الحمل الزائد في وزن الملابس
+                    قد يضر عمر غسالات زانوسي ويسبب صوت اثناء العصر او تاكل رومان
+                    البلي وهذه النصيحة مقدمة من مهندسيين زانوسي المختصيين<br />
+                    zanussi Washer repair Services
+                  </li>
+                  <li class="unselectable">
+                    سادسا يجب فصل الالوان اثناء عملية الغسيل يجب وضع الملابس
+                    الملونه لوحدها و وضع الملابس البيضاء او التي تحتاج الي حراره
+                    عالية لوحدها حتي لا يتم تلف الملابس
+                  </li>
+                  <li class="unselectable">
+                    سابعا ينصح مختصيين اعطال غسالات زانوسي ان يتم تغير الطرومبة
+                    الخاصة بغساله ملابس توب لود زانوسي حتي يبقي الملابس نظيفة
+                  </li>
+                  <li class="unselectable">
+                    ثامنا في حالة وجود عطل تسريب مياة من الغساله او صوت عالي او
+                    الغساله مبتعرصش او توقف دوران الحلة الداخلية او تسريب في
+                    كوتش الباب او قفل الباب لا يفتح برجاء الاتصال بـ خدمة عملاء
+                    صيانة غسالات زانوسي في مصر
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="faq">
+              <div
+                class="cont d-flex justify-content-between align-items-center"
+              >
+                <h3 class="unselectable">تشغيل غسالات اطباق زانوسي اول مرة</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="answer">
+                <ul>
+                  <li class="unselectable">
+                    يقول توكيل زانوسي للغساله الاطباق من الكابل الخاص بالجهاز
+                    ومصدر كهرباء الموصلة لغساله اطباق زانوسي لاول مره وتاكد من
+                    انه يتحمل الضغط المناسب
+                  </li>
+                  <li class="unselectable">
+                    ينصح مركز صيانة غساله اطباق زانوسي في مصر ان يتم وضع مصدر
+                    الماء بمستوي طبيعي حتي لا يتم وقف الغساله الصحون الصرف الصحي
+                    المرتبط بخرطوم صرف المياة الخاص بغساله اطباق زانوسي يجب ان
+                    يكون في مستوي اعلي من الخرطوم لسلامة عمل الجهاز <br />
+                    zanussi Dish Washer repair Services
+                  </li>
+                  <li class="unselectable">
+                    توكيل غساله اطباق زانوسي مصر ينصح العملاء باستخدام انواع
+                    الصابون المخصصه لغسالات الاطباق عموما لسلامة الاجهزة وحتي لا
+                    يتم تعرض للاعطال المتكررة
+                  </li>
+                  <li class="unselectable">
+                    خدمات مراكز صيانة غساله صحون زانوسي مصر يتيج لك افضل
+                    الاكسسورات الاصلية المقدمة من مراكز زانوسي مصر للصيانة
+                    والمبيعات
+                  </li>
+                  <li class="unselectable">
+                    خدمة عملاء صيانة غساله اطباق زانوسي يمكنك الاتصال به في اي
+                    وقت لطلبات الصيانة والمبيعات في اي وقت في الاسبوع
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="faq">
+              <div
+                class="cont d-flex justify-content-between align-items-center"
+              >
+                <h3 class="unselectable">
+                  تعليمات استعمال سخانات و بوتجازات زانوسي
+                </h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="answer">
+                <ul>
+                  <li class="unselectable">
+                    يجب عمل تهوية لمكان السخان الزانوسي في المكان المخصص
+                    للسخانات وهي لان يتركيب السخان الا في حالة عمل هواية للغار
+                    لضمان عدم اختناق داخل المكان ويكون توكيل زانوسي للسخانات برء
+                    امام الله من العميل في حالة عدم عمل هذه الخطوه صيانة سخانات
+                    زانوسي في مصر يتيح لك جميع اكسسورات التوصيل الخاصة بالسخانات
+                    بافضل الاسعار<br />zanussi Heaters repair Services
+                  </li>
+                  <li class="unselectable">
+                    يجب ان يظل السخان في مكان بعيد عن المياة او البخار لتجنب
+                    الصدا والتاكل في هيكل السخان
+                  </li>
+                  <li class="unselectable">
+                    يعتبر ضمان سخانات زانوسي من سنه الي 3 سنين علي حسب الموديل
+                    ويمكنك الاستفسار من خلال ارقام خدمة عملاء صيانة سخانات
+                    زانوسي مصر
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="faq">
+              <div
+                class="cont d-flex justify-content-between align-items-center"
+              >
+                <h3 class="unselectable">ارشادات تشغيل بوتجازات زانوسي</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="answer">
+                <ul>
+                  <li class="unselectable">
+                    ينصح توكيل زانوسي للبوتجازات اذا كان المنزل لديك يعمل بالغاز
+                    الطبيعي يقوم فني توكيل صيانة بوتجازات زانوسي ان يغير النظام
+                    من انبوبة الغاز الي ماسوره الغاز يقوم فني مركز صيانة
+                    بوتجازات زانوسي بتركيب الفنيا الخاص بعيون البوتجاز زانوسي<br />
+                    zanussi Built-in Cookers repair Services<br />
+                    تحذر ارقام توكيل بوتجازات زانوسي من تحريك البوتجاز من مكانة
+                    دون شيلة قد يودي الي كسر الرجول الخاص به
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="faq">
+              <div
+                class="cont d-flex justify-content-between align-items-center"
+              >
+                <h3 class="unselectable">أعطال الديب فريزر</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="answer">
+                <ul>
+                  <li class="unselectable">الديب فريزر لا يعمل نهائيا</li>
+                  <li class="unselectable">
+                    الديب فريزر لا يجمد أو تجميده ضعيف
+                  </li>
+                  <li class="unselectable">الديب فريزر لا يفصل</li>
+                  <li class="unselectable">
+                    تشكل طبقات من الثلج في الفريزرالديب فريزر بيعمل ثلج
+                  </li>
+                  <li class="unselectable">ارتفاع صوت الديب فريزر</li>
+                  <li class="unselectable">
+                    رموز أعطال الديب فريزر "هذه الرموز توضح وجود مشكلة محدده
+                    تؤثر علي عمل الديب فريزر حتي يتم حل المشكلة سريعاً قبل ان
+                    تتفاقم ومن هذه الرموز<br />
+                    (E4 / E2 / E1 / E6 / 888) "
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="right-side">
+          <h2 class="unselectable">صيانة اجهزة زانوسي</h2>
+          <p class="unselectable">
+            بمجرد التواصل مع توكيل زانوسي مصر يتيح لك احدث التقنيات والاساليب
+            المتطورة في اصلاح وصيانة اعطال زانوسي في جمهورية مصر العربية وقد
+            شهدت شركة زانوسي تطورات في خطوط انتاج الاجهزة المنزلية علي مر الزمان
+            منذ نشئت شركة زانوسي حتي وقتنا هذا تعتبر شركة زانوسيمن انجح شركات
+            مبيعات وصيانة غسالات ثلاجات ميكروويف مجفف ديب فريزر زانوسي في مصر
+            فقط تواصل مع توكيل زانوسي مصر في اي وقت zanussi Agent
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

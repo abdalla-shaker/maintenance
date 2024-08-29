@@ -12,7 +12,7 @@
   --gray-black-color: #f9fafb;
   --white-color: #f8fafc;
   --gray-color: #d1d5db;
-  --red-color: #991b1b;
+  --new-primary-color: #991b1b;
   --cards-background-color: rgb(57, 57, 57);
   --left-to-right-background-gradient: linear-gradient(
     90deg,
@@ -107,7 +107,7 @@ a:hover.button {
 }
 
 .sub-title {
-  color: var(--red-color);
+  color: var(--new-primary-color);
   display: inline-block;
   font-size: 1.3em;
   margin-bottom: 0.6em;

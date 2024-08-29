@@ -1,6 +1,6 @@
 :root {
-  --lg-primary-color: #a50034;
-  --lg-hover-color: #760025;
+  --new-primary-color: #a50034;
+  --new-hover-color: #760025;
 }
 
 /* Header section */
@@ -47,13 +47,13 @@
 
 .hero .hero-text a {
   color: var(--white-color);
-  background-color: var(--lg-primary-color);
+  background-color: var(--new-primary-color);
   padding: 0.5em 2em;
   border-radius: unset;
 }
 
 .hero .hero-text a:hover {
-  background-color: var(--lg-hover-color);
+  background-color: var(--new-hover-color);
 }
 /* End of Header section */
 
@@ -80,7 +80,7 @@
   margin-bottom: 0.5em;
   width: 70px;
   height: 70px;
-  fill: var(--lg-primary-color);
+  fill: var(--new-primary-color);
 }
 
 .card-title {
@@ -242,11 +242,11 @@
 }
 
 .faq-container .faq.active h3 {
-  color: var(--lg-primary-color);
+  color: var(--new-primary-color);
 }
 
 .faq-container .faq.active svg {
-  fill: var(--lg-primary-color);
+  fill: var(--new-primary-color);
   rotate: 180deg;
 }
 
