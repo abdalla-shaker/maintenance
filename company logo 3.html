@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reusables.css" />
+    <link rel="stylesheet" href="assets/css/company/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/company/responsive.css" />
+    <link rel="stylesheet" href="assets/css/sharp/style.css" />
+    <link rel="stylesheet" href="assets/css/sharp/responsive.css" />
+    <script src="assets/app/company 3/app.js" defer></script>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div
+        class="container header-container d-flex justify-content-between align-items-center"
+      >
+        <nav class="nav">
+          <div class="burger-icon" id="burger-icon">
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+          </div>
+          <ul class="nav-links d-flex">
+            <div class="links-container d-flex align-items-end flex-column">
+              <li>
+                <div class="home-nav d-flex align-items-center">
+                  <div
+                    class="contact d-flex align-items-center justify-content-center"
+                  >
+                    <a href="#">تواصل معنا</a>
+                  </div>
+                  <div
+                    class="home d-flex align-items-center justify-content-center"
+                  >
+                    <a href="#">الرئيسية</a>
+                  </div>
+                </div>
+              </li>
+              <li><h2>مراكز الصيانة المعتمده</h2></li>
+              <li class="companies-container" id="companies-container"></li>
+            </div>
+          </ul>
+        </nav>
+        <div class="logo">
+          <img src="public/logo.webp" alt="logo" />
+        </div>
+      </div>
+      <div class="nav-overLay"></div>
+    </header>
+
+    <main class="hero" id="hero">
+      <div class="container hero-container">
+        <div class="hero-image">
+          <img
+            src="assets/images/company 3/hero image.webp"
+            alt="A man looking at a tv"
+          />
+        </div>
+        <div class="hero-text d-flex flex-column align-items-end">
+          <h1>Sharp مركز صيانة أجهزة</h1>
+          <p>
+            نحن في خدمتكم لتقديم الدعم الفني الشامل والصيانة المتخصصة لجميع
+            منتجات شارب. نحن<br />
+            ندرك تمامًا مدى الإزعاج الذي يمكن أن يسببه حدوث خلل أو عطل في
+            أجهزتكم المنزلية، ونعمل<br />
+            جاهدين على تقديم أفضل الحلول لتجاوز أي مشكلة قد تواجهكم. لا تترددوا
+            في التواصل معنا<br />
+            للحصول على المشورة الفنية والمساعدة الفورية في حال حدوث أي طارئ أو
+            عطل بسيط. نحن<br />
+            هنا لدعمكم وتوفير الحلول المثلى لضمان راحتكم وسلامة أجهزتكم
+          </p>
+          <div class="button-group">
+            <a
+              href="#"
+              class="button d-flex justify-content-center align-items-center"
+              >اتصل بنا</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="services" id="services">
+      <div class="container services-container">
+        <div class="cards" id="cards"></div>
+      </div>
+    </section>
+
+    <section class="about-us" id="about-us">
+      <div class="container about-us-container">
+        <div class="about-us-text d-flex flex-column align-items-end">
+          <span class="sub-title">في مصر sharp توكيل صيانة</span>
+          <h2 class="title">مركز صيانه شارب معتمد</h2>
+          <p class="about-us-first-p">
+            نحن الوكيل المعتمد من شركة شارب في مصر والشرق الأوسط، متخصصون في
+            صيانة أجهزة شارب بجميع محافظات مصر. نقدم خدمة صيانة شاملة وسريعة
+            لجميع أجهزة شارب، مع ضمان توفير الخدمة داخل منزلك وفي أقصر وقت ممكن.
+            نهدف إلى تقديم خدمة متميزة لعملاء شارب، مما يجعلنا الخيار الأول لدعم
+            وصيانة أجهزة شارب في المنطقة
+          </p>
+          <p>
+            نمتلك فريقًا متكاملًا من المهندسين والفنيين المتخصصين والمدربين على
+            أعلى مستوى في صيانة الأجهزة المنزلية والكهربائية. بالإضافة إلى أسطول
+            من السيارات المتنقلة المجهزة بأحدث التقنيات، لضمان صيانة جميع
+            الأجهزة الإلكترونية والوصول إلى عملائنا في كافة أنحاء الجمهورية
+            بسرعة وكفاءة عالية
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="LG-maintenance-services" id="LG-maintenance-services">
+      <div class="container maintenance-services-container">
+        <div class="maintenance-services-image">
+          <img
+            src="assets/images/company 3/service image.webp"
+            alt="lg image"
+          />
+        </div>
+        <div class="maintenance-services-text">
+          <h2 class="title">مجموعة شركات شارب</h2>
+          <p>
+            شركة شارب تُعد واحدة من الشركات الرائدة في مجال الأجهزة المنزلية،
+            حيث تقدم خدمات صيانة<br />
+            وإصلاح متكاملة لجميع منتجاتها في مختلف أنحاء الجمهورية. نحن هنا
+            لتوفير دعم فني شامل<br />
+            على مدار الأسبوع، واستعداد للإجابة على كافة استفساراتكم من خلال
+            أرقام تليفونات<br />
+            صيانة شارب المتاحة دائماً
+          </p>
+        </div>
+        <div class="LG-services-cards" id="LG-services-cards">
+          <div class="row">
+            <div class="card">
+              <div class="image-cont">
+                <img
+                  src="assets/images/company 3/refrigerator.webp"
+                  alt="refregirator image"
+                />
+              </div>
+              <h3 class="title">صيانة ثلاجات شارب</h3>
+              <p class="text">
+                تُعتبر الثلاجة من العناصر الأساسية في كل منزل مصري، نظرًا لدورها
+                الحيوي في الحفاظ على الطعام والمشروبات. إدراكًا لأهمية هذه
+                الأجهزة، تلتزم شركتنا بتوفير خدمة صيانة متميزة لثلاجات شارب من
+                خلال فريق من الفنيين ذوي الخبرة العالية، الذين يتمتعون بالكفاءة
+                والسرعة في العمل. نستخدم أحدث الأجهزة التقنية لتشخيص الأعطال
+                وإصلاحها بفعالية، مما يساهم في تسريع عملية الصيانة. تمتلك الشركة
+                شبكة واسعة من مراكز الصيانة المنتشرة في مختلف المحافظات والمدن
+                المصرية، بالإضافة إلى أسطول صيانة متنقل يصل إلى المناطق التي لا
+                تتوفر فيها مراكز صيانة. نحن نعمل بجد على توسيع عدد الفروع لتقديم
+                أفضل خدمة ممكنة لعملاء شارب، مع الحرص على توفير الراحة والرفاهية
+                التي تستحقونها
+              </p>
+            </div>
+            <div class="card">
+              <div class="image-cont">
+                <img
+                  src="assets/images/company 3/deep freezer.webp"
+                  alt="Deep freezer image"
+                />
+              </div>
+              <h3 class="title">صيانة دييب فريزر شارب</h3>
+              <p class="text">
+                يُعتبر جهاز الديب فريزر من الأجهزة الأساسية في المنزل، نظرًا
+                لقدراته على تخزين كميات كبيرة من الطعام لفترات ممتدة. أي خلل قد
+                يحدث في الديب فريزر يمكن أن يثير القلق بشأن فساد الأطعمة
+                المخزنة. لذلك، تلتزم شركتنا بتوفير خدمة صيانة سريعة وفعالة
+                لمنتجات ديب فريزر شارب. لدينا فريق متخصص ومدرب على أعلى مستوى،
+                مجهز للتعامل مع جميع الأعطال بكفاءة وسرعة. نحن نحرص على تقديم
+                الدعم اللازم لجميع عملاء شارب في مصر، لضمان استمرارية عمل أجهزة
+                الديب فريزر بكفاءة دون تأخير
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card">
+              <div class="image-cont">
+                <img
+                  src="assets/images/company 3/washing machine.webp"
+                  alt="washing machine image"
+                />
+              </div>
+              <h3 class="title">صيانة غسالات شارب</h3>
+              <p class="text">
+                تُعتبر غسالات شارب من المنتجات الرائجة في السوق المصري، حيث تحقق
+                مبيعات مرتفعة بفضل جودتها وكفاءتها. حرصًا منا على تقديم أفضل
+                تجربة لعملائنا، نقدم خدمة ما بعد البيع من خلال فريق متخصص من
+                الخبراء والفنيين المدربين خصيصًا لصيانة غسالات شارب. يمتاز هذا
+                الفريق بخبرة واسعة وكفاءة عالية في معالجة جميع أنواع الأعطال
+                التي قد تواجهها غسالتك. كما نولي أهمية قصوى للسرعة في الاستجابة
+                لطلبات الصيانة لضمان تلبية احتياجات عملائنا بأسرع وقت ممكن
+              </p>
+            </div>
+            <div class="card">
+              <div class="image-cont">
+                <img
+                  src="assets/images/company 3/air condition image.webp"
+                  alt="washing machine image"
+                />
+              </div>
+              <h3 class="title">صيانة تكيفات شارب</h3>
+              <p class="text">
+                مع تزايد درجات الحرارة في فصل الصيف، أصبحت أجهزة التكييف ضرورة
+                أساسية في كل منزل مصري، حيث يمتلك معظم المنازل مكيفًا أو أكثر.
+                في ظل هذه الحاجة المتزايدة، نالت مكيفات شارب شهرة واسعة وحققت
+                حصة كبيرة في السوق المصري. ولضمان رضا عملائنا، نقدم خدمة صيانة
+                متكاملة لمكيفات شارب بأعلى مستوى من الاحترافية، للتعامل مع أي
+                مشكلات قد تواجههم وضمان أداء أجهزة التكييف بكفاءة عالية
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq__section" id="faq">
+      <div class="container faq-container">
+        <div class="left-side">
+          <ul class="faqs">
+            <li class="faq">
+              <div
+                class="cont d-flex justify-content-between align-items-center"
+              >
+                <h3 class="unselectable">خدمة عملاء شكاوي شارب</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="answer">
+                <ul>
+                  <li class="unselectable">
+                    بمجرد التواصل مع خدمة عملاء صيانة شارب في مصر 24/7 سوف تجد
+                    دعم كامل من فريق ممثلي خدمة العملاء الخاصة بماركة شارب في
+                    الجيزة والقاهرة والاسكندرية يتكون خدمة عملاء شارب من قسم
+                    طلبات صيانه شارب العربي وقسم المبيعات وقسم شكاوي صيانة شارب
+                    العربي وخدمات ما بعد البيع فقط قم بالتواصل مع خدمة العملاء
+                    وسوف تنحل المشكل في اسرع وقت ممكن وهذا لضمان مستوي الخدمة قد
+                    تكون جميع المكالمات مسجلة وفي حالة طلب العميل الرجوع الي قسم
+                    الشكاوي <br />sharp customer service
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="faq">
+              <div
+                class="cont d-flex justify-content-between align-items-center"
+              >
+                <h3 class="unselectable">ضمان قطع غيار اجهزة شارب</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="answer">
+                <ul>
+                  <li class="unselectable">
+                    ضمان اجهزة شارب العربي في مصر حقيقي معتمد من وزاره الصناعة
+                    ويتم تفعيل هذا الضمان بعد اتمام عملية الصيانة الخاص باجهزة
+                    شارب ويكون الضمان علي حسب قطع الغيار المستبدلة قد يصل الي
+                    سنه علي اعمال الصيانة وتعتمد علي قطع غيار اصلية من بلد
+                    المنشاءه شركة شارب العربي الرئيسية ويتم استبدال قطع الغيار
+                    التالفة باخره سليمة اصلية لتفادي <br />sharp appliances
+                    guarantee<br />
+                    حدوث خلال في الجهاز مره اخرة ويتم استخدام احدث التقنيات
+                    الحديثة في صيانة اجهزة شارب
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="faq">
+              <div
+                class="cont d-flex justify-content-between align-items-center"
+              >
+                <h3 class="unselectable">تشغيل ثلاجات شارب اول مره</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="answer">
+                <ul>
+                  <li class="unselectable">
+                    اولا توكيل شارب للثلاجات يجب التاكد من مصدر الكهرباء وقدر
+                    تحمل هذا المصدر للفيشة الكهربائية الخاص بي ثلاجات شارب وانه
+                    يتحمل الجهد والتحميل المطلوب لتشغل الجهاز
+                  </li>
+                  <li class="unselectable">
+                    ثانيا ينص توكيل ثلاجات شارب وضع الثلاجة في مكان جيد التهوية
+                    لتفادي سخونه جوانب الثلاجة او الاحساس بالسخونه وهذا يجعل
+                    الثلاجة تعمل بالشكل المطلوب
+                  </li>
+                  <li class="unselectable">
+                    ثالثا عليك ان تترك الثلاجة مده لا تقل عن 8 ساعات لان اثناء
+                    انتقال الثلاجة من مكان المعرض الي بيت العملاء يتم تحريك زيت
+                    الماتور في المواسير والراجع وقد يتسبب في تلف الثلاجة في حالة
+                    تشغليها فورا لذلك يجب تركها حتي يتثب الزيت في الماتور مره
+                    اخره <br />sharp Refrigerators repair Services
+                  </li>
+                  <li class="unselectable">
+                    رابعا يجب ترك الثلاجة اكثر من 10 ساعات حتي يتم تجميع تبريد
+                    في الكبينة الخاصة بثلاجات شارب ومن ثم الفريزر
+                  </li>
+                  <li class="unselectable">
+                    خامسا يجب تغطية الطعام داخل الثلاجات الشارب من اجل بقاء
+                    رائحة الثلاجة علي ما يرام وهذه نصيحة من مراكز صيانة ثلاجات
+                    شارب مصر لتفادي حدوث الاعطال
+                  </li>
+                  <li class="unselectable">
+                    سادسا في حالة ان تبريد الكبينة ليس طبيعي فا توكيل صيانة
+                    ثلاجات شارب ينصح بتعلية الترموستات الي درجة اعله ليتم تعلية
+                    التبريد
+                  </li>
+                  <li class="unselectable">
+                    في حالة وجود عطل بالثلاجات يجب الاتصال بـ خدمة عملاء صيانة
+                    ثلاجات شارب في مصر الخط الساخن ليتم عمل الصيانة الازمة في
+                    الجهاز
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="faq">
+              <div
+                class="cont d-flex justify-content-between align-items-center"
+              >
+                <h3 class="unselectable">
+                  كيفية تشغيل غسالات ملابس واطباق شارب
+                </h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="answer">
+                <ul>
+                  <li class="unselectable">
+                    اولا تاكد من التوصيلات الكهربائية بين مصدر الكهرباء وفيشة
+                    الكهرباء الخاصة بغسالات ملابس شارب ويتم توصيل الكهرباء ولكن
+                    لا تبداء التشغيل ثانيا ينصح توكيل صيانة غسالات شارب مصر
+                    بالتاكد من الصمام المياة والتاكد من حنفية الصرف الصحي التي
+                    يتم توصيل الصمام منها ثالثا من ارشادات مراكز غسالات شارب مصر
+                    ان يتم التاكد من خرطوم الصرف الخاص بغسالات شارب انه في مستوي
+                    اعلي من ماسورة الصرف حتي يتم تشغل الجهاز بشكل سليم رابعا من
+                    داخل ورش اصلاح اعطال غسالات شارب يجب تشغيل الغساله شارب
+                    بدوره خل اولا ليتم تعيقم الجهاز من اي شوائب او اي رائحة
+                    خامسا يحذر توكيل شارب للغسالات الحمل الزائد في وزن الملابس
+                    قد يضر عمر غسالات شارب ويسبب صوت اثناء العصر او تاكل رومان
+                    البلي وهذه النصيحة مقدمة من مهندسيين شارب المختصيين sharp
+                    Washer repair Services سادسا يجب فصل الالوان اثناء عملية
+                    الغسيل يجب وضع الملابس الملونه لوحدها و وضع الملابس البيضاء
+                    او التي تحتاج الي حراره عالية لوحدها حتي لا يتم تلف الملابس
+                    سابعا ينصح مختصيين اعطال غسالات شارب ان يتم تغير الطرومبة
+                    الخاصة بغساله ملابس توب لود شارب حتي يبقي الملابس نظيفة
+                    ثامنا في حالة وجود عطل تسريب مياة من الغساله او صوت عالي او
+                    الغساله مبتعرصش او توقف دوران الحلة الداخلية او تسريب في
+                    كوتش الباب او قفل الباب لا يفتح برجاء الاتصال بـ خدمة عملاء
+                    صيانة غسالات شارب في مصر
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="faq">
+              <div
+                class="cont d-flex justify-content-between align-items-center"
+              >
+                <h3 class="unselectable">تشغيل غسالات اطباق شارب اول مرة</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="answer">
+                <ul>
+                  <li class="unselectable">
+                    يقول توكيل شارب للغساله الاطباق من الكابل الخاص بالجهاز
+                    ومصدر كهرباء الموصلة لغساله اطباق شارب لاول مره وتاكد من انه
+                    يتحمل الضغط المناسب
+                  </li>
+                  <li class="unselectable">
+                    ينصح مركز صيانة غساله اطباق شارب في مصر ان يتم وضع مصدر
+                    الماء بمستوي طبيعي حتي لا يتم وقف الغساله الصحون الصرف الصحي
+                    المرتبط بخرطوم صرف المياة الخاص بغساله اطباق شارب يجب ان
+                    يكون في مستوي اعلي من الخرطوم لسلامة عمل الجهاز<br />
+                    sharp Dish Washer repair Services
+                  </li>
+                  <li class="unselectable">
+                    توكيل غساله اطباق شارب مصر ينصح العملاء باستخدام انواع
+                    الصابون المخصصه لغسالات الاطباق عموما لسلامة الاجهزة وحتي لا
+                    يتم تعرض للاعطال المتكررة
+                  </li>
+                  <li class="unselectable">
+                    خدمات مراكز صيانة غساله صحون شارب مصر يتيج لك افضل
+                    الاكسسورات الاصلية المقدمة من مراكز شارب مصر للصيانة
+                    والمبيعات
+                  </li>
+                  <li class="unselectable">
+                    خدمة عملاء صيانة غساله اطباق شارب يمكنك الاتصال به في اي وقت
+                    لطلبات الصيانة والمبيعات في اي وقت في الاسبوع
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="right-side">
+          <h2 class="unselectable">صيانة اجهزة زانوسي</h2>
+          <p class="unselectable">
+            بمجرد التواصل مع توكيل زانوسي مصر يتيح لك احدث التقنيات والاساليب
+            المتطورة في اصلاح وصيانة اعطال زانوسي في جمهورية مصر العربية وقد
+            شهدت شركة زانوسي تطورات في خطوط انتاج الاجهزة المنزلية علي مر الزمان
+            منذ نشئت شركة زانوسي حتي وقتنا هذا تعتبر شركة زانوسيمن انجح شركات
+            مبيعات وصيانة غسالات ثلاجات ميكروويف مجفف ديب فريزر زانوسي في مصر
+            فقط تواصل مع توكيل زانوسي مصر في اي وقت zanussi Agent
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

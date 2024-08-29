@@ -321,3 +321,7 @@ body.active {
   -ms-user-select: none;
   user-select: none;
 }
+
+.answer li {
+  text-align: right;
+}
