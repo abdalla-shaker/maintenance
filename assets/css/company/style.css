@@ -4,7 +4,7 @@
 }
 
 /* Header section */
-.hero .company-hero-container {
+.hero .hero-container {
   position: relative;
 }
 
@@ -97,7 +97,7 @@
 .about-us-container {
   margin-top: 5em;
   position: relative;
-  background: url("../../images/company\ 4/about us.webp");
+  background: url("../../images/company\ 1/about us.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
