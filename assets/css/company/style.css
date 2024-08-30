@@ -258,6 +258,6 @@
 }
 
 .faq-container .faq .answer.active {
-  max-height: 300px;
+  max-height: 600px;
 }
 /* End of FAQ section */
