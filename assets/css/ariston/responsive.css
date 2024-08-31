@@ -1,0 +1,30 @@
+@media (max-width: 1300px) {
+  .maintenance-services-text {
+    position: static;
+    transform: unset;
+    width: 100%;
+    background-image: url("../../images/company\ 6/service\ image.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10em 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero-container {
+    width: 100%;
+    background-image: url("../../images/company 6/hero\ image.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    isolation: isolate;
+  }
+
+  .hero .hero-text {
+    background-color: #ffffff95;
+  }
+}

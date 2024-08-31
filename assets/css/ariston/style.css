@@ -1,0 +1,16 @@
+:root {
+  --new-primary-color: #ab0101;
+  --new-hover-color: #740000;
+}
+
+.cards {
+  margin-top: -5%;
+}
+
+.about-us-container {
+  margin-top: 5em;
+  position: relative;
+  background: url("../../images/company\ 6/about us.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
