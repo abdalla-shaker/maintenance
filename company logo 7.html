@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reusables.css" />
+    <link rel="stylesheet" href="assets/css/company/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/company/responsive.css" />
+    <link rel="stylesheet" href="assets/css/white whale/style.css" />
+    <link rel="stylesheet" href="assets/css/white whale/responsive.css" />
+    <script src="assets/app/company 7/app.js" defer></script>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div
+        class="container header-container d-flex justify-content-between align-items-center"
+      >
+        <nav class="nav">
+          <div class="burger-icon" id="burger-icon">
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+          </div>
+          <ul class="nav-links d-flex">
+            <div class="links-container d-flex align-items-end flex-column">
+              <li>
+                <div class="home-nav d-flex align-items-center">
+                  <div
+                    class="contact d-flex align-items-center justify-content-center"
+                  >
+                    <a href="#">تواصل معنا</a>
+                  </div>
+                  <div
+                    class="home d-flex align-items-center justify-content-center"
+                  >
+                    <a href="#">الرئيسية</a>
+                  </div>
+                </div>
+              </li>
+              <li><h2>مراكز الصيانة المعتمده</h2></li>
+              <li class="companies-container" id="companies-container"></li>
+            </div>
+          </ul>
+        </nav>
+        <div class="logo">
+          <img src="public/logo.webp" alt="logo" />
+        </div>
+      </div>
+      <div class="nav-overLay"></div>
+    </header>
+
+    <main class="hero" id="hero">
+      <div class="container hero-container">
+        <div class="hero-image">
+          <img
+            src="assets/images/company 7/hero image.webp"
+            alt="A man looking at a tv"
+          />
+        </div>
+        <div class="hero-text d-flex flex-column align-items-end">
+          <h1>White Whale مركز صيانة أجهزة</h1>
+          <p>
+            أهلاً بكم في الموقع الرسمي لتوكيل صيانة وايت ويل في مصر. نقدم لكم
+            خدمات صيانة فورية<br />
+            في المنزل، مع ضمان استخدام قطع غيار أصلية. تواصل معنا وسنقوم بزيارة
+            منزلكم لتلبية كافة<br />
+            احتياجات صيانة أجهزتكم بسرعة وفعالية
+          </p>
+          <div class="button-group">
+            <a
+              href="#"
+              class="button d-flex justify-content-center align-items-center"
+              >اتصل بنا</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="services" id="services">
+      <div class="container services-container">
+        <div class="cards" id="cards"></div>
+      </div>
+    </section>
+
+    <section class="about-us" id="about-us">
+      <div class="container about-us-container">
+        <div class="about-us-image">
+          <!-- <img
+            src="assets/images/company 1/about us.webp"
+            alt="camera taking picture of a TV"
+          /> -->
+        </div>
+
+        <div class="about-us-text d-flex flex-column align-items-end">
+          <span class="sub-title">في مصر White Whale توكيل صيانة</span>
+          <h2 class="title">مركز صيانه وايت ويل معتمد</h2>
+          <p class="about-us-first-p">
+            نحن الوكيل المعتمد من شركة وايت ويل في مصر والشرق الأوسط، متخصصون في
+            صيانة أجهزة وايت ويل بجميع محافظات مصر. نقدم خدمة صيانة شاملة وسريعة
+            لجميع أجهزة وايت ويل، مع ضمان توفير الخدمة داخل منزلك وفي أقصر وقت
+            ممكن. نهدف إلى تقديم خدمة متميزة لعملاء وايت ويل، مما يجعلنا الخيار
+            الأول لدعم وصيانة أجهزة وايت ويل في المنطقة
+          </p>
+          <p>
+            نمتلك فريقًا متكاملًا من المهندسين والفنيين المتخصصين والمدربين على
+            أعلى مستوى في صيانة الأجهزة المنزلية والكهربائية. بالإضافة إلى أسطول
+            من السيارات المتنقلة المجهزة بأحدث التقنيات، لضمان صيانة جميع
+            الأجهزة الإلكترونية والوصول إلى عملائنا في كافة أنحاء الجمهورية
+            بسرعة وكفاءة عالية
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="LG-maintenance-services" id="LG-maintenance-services">
+      <div class="container maintenance-services-container">
+        <div class="maintenance-services-image">
+          <img
+            src="assets/images/company 7/service image.webp"
+            alt="lg image"
+          />
+        </div>
+        <div class="maintenance-services-text">
+          <h2 class="title">مجموعة شركات وايت ويل</h2>
+          <p>
+            شركة وايت ويل تُعد واحدة من الشركات الرائدة في مجال الأجهزة
+            المنزلية، حيث تقدم خدمات صيانة<br />
+            وإصلاح متكاملة لجميع منتجاتها في مختلف أنحاء الجمهورية. نحن هنا
+            لتوفير دعم فني شامل<br />
+            على مدار الأسبوع، واستعداد للإجابة على كافة استفساراتكم من خلال
+            أرقام تليفونات<br />
+            صيانة وايت ويل المتاحة دائماً
+          </p>
+        </div>
+        <div class="LG-services-cards" id="LG-services-cards">
+          <div class="row">
+            <div class="card">
+              <div class="image-cont">
+                <img
+                  src="assets/images/company 7/refrigerator image.webp"
+                  alt="refrigerator image"
+                />
+              </div>
+              <h3 class="title">صيانة ثلاجات وايت ويل</h3>
+              <p class="text">
+                تُقدَّم صيانة ثلاجات وايت ويل بواسطة فريق من المهندسين والفنيين
+                المتخصصين في جميع أنواع ثلاجات وايت ويل. تعتبر ثلاجات وايت ويل
+                من بين الأفضل في السوق، ونضمن تقديم خدمة صيانة عالية الجودة
+                تتناسب مع مستوى أجهزتها المتقدم.
+              </p>
+            </div>
+            <div class="card">
+              <div class="image-cont">
+                <img
+                  src="assets/images/company 7/stove image.webp"
+                  alt="stove image"
+                />
+              </div>
+              <h3 class="title">صيانة بوتاجازات وايت ويل</h3>
+              <p class="text">
+                تُقدّم صيانة بوتاجازات وايت ويل بواسطة فريق من المهندسين
+                والفنيين المتخصصين في جميع موديلات البوتاجازات من وايت ويل.
+                تُعَدّ بوتاجازات وايت ويل من بين الأفضل في فئتها، ونضمن لكم
+                صيانتها بأعلى مستوى من الاحترافية والخبرة
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card">
+              <div class="image-cont">
+                <img
+                  src="assets/images/company 7/air conditioner image.webp"
+                  alt="air conditioner image"
+                />
+              </div>
+              <h3 class="title">صيانة تكييفات وايت ويل</h3>
+              <p class="text">
+                تُقدَّم صيانة تكييفات وايت ويل من قبل فريق من المهندسين والفنيين
+                المتخصصين في جميع أنواع تكييفات وايت ويل. تُعتبر تكييفات وايت
+                ويل من بين الأفضل في مجالها، ونحن نضمن تقديم خدمة صيانة متفوقة
+                تواكب مستوى تميز هذه الأجهزة
+              </p>
+            </div>
+            <div class="card">
+              <div class="image-cont">
+                <img
+                  src="assets/images/company 7/dishwasher image.webp"
+                  alt="dishwasher image"
+                />
+              </div>
+              <h3 class="title">صيانة غسالة اطباق وايت ويل</h3>
+              <p class="text">
+                تقدم صيانة غسالات الأطباق من وايت ويل خدمات متكاملة على يد
+                مهندسين وفنيين متخصصين في جميع موديلات غسالات الأطباق. تُعتبر
+                غسالات أطباق وايت ويل من الأفضل في فئتها، وتضمن لك صيانتها بأعلى
+                مستوى من الخبرة والكفاءة
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card">
+              <div class="image-cont">
+                <img
+                  src="assets/images/company 7/washing machine.webp"
+                  alt="washing machine image"
+                />
+              </div>
+              <h3 class="title">صيانة غسالات وايت ويل</h3>
+              <p class="text">
+                تُقدَّم خدمات صيانة غسالات وايت ويل على يد فريق من المهندسين
+                والفنيين المتخصصين في جميع طرازات غسالات وايت ويل. تُعتبر غسالات
+                وايت ويل من بين الأفضل في فئتها، ونحن نضمن تقديم صيانة ذات جودة
+                عالية تتناسب مع مستوى تميز هذه الأجهزة
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq__section" id="faq">
+      <div class="container faq-container">
+        <div class="left-side">
+          <ul class="faqs">
+            <li class="faq">
+              <div
+                class="cont d-flex justify-content-between align-items-center"
+              >
+                <h3 class="unselectable">افضل خدمة صيانة</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="answer">
+                <ul>
+                  <li class="unselectable">
+                    توكيل وايت ويل يقدم افضل خدمة صيانة على ايدى افضل الفنيين
+                    والمهندسيين المتخصصون فى جميع اجهزة وايت ويل
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="faq">
+              <div
+                class="cont d-flex justify-content-between align-items-center"
+              >
+                <h3 class="unselectable">شهادة ضمان معتمدة</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="answer">
+                <ul>
+                  <li class="unselectable">
+                    توكيل وايت ويل يقدم شهادة ضمان معتمدة على قطع الغيار وذلك
+                    لضمان حق العميل ايضا لدينا قطع غيار اصلية
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="faq">
+              <div
+                class="cont d-flex justify-content-between align-items-center"
+              >
+                <h3 class="unselectable">دعم فنى متواصل</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="answer">
+                <ul>
+                  <li class="unselectable">
+                    يقدم توكيل وايت ويل دعم فنى متواصل على مدار اليوم وذلك لضمان
+                    راحة العميل نحرص دائما على ارضاء عملائنا
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="faq">
+              <div
+                class="cont d-flex justify-content-between align-items-center"
+              >
+                <h3 class="unselectable">خدمة عملاء وايت ويل</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="answer">
+                <ul>
+                  <li class="unselectable">
+                    خدمة عملاء على اعلى مستوى من الكفاءة والمهارة على مدار اليوم
+                    جاهزين للرد على استفساراتكم
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="faq">
+              <div
+                class="cont d-flex justify-content-between align-items-center"
+              >
+                <h3 class="unselectable">نصلك حتى باب المنزل</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="answer">
+                <ul>
+                  <li class="unselectable">
+                    توكيل وايت ويل يقدم صيانة فورية بالمنزل عميل وايت ويل كل
+                    ماعليك الاتصال بنا وسوف نصلك اينما كنت
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="faq">
+              <div
+                class="cont d-flex justify-content-between align-items-center"
+              >
+                <h3 class="unselectable">اكفئ الفنيين والمهندسين</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="answer">
+                <ul>
+                  <li class="unselectable">
+                    توكيل وايت ويل لدينا اكفى الفنيين والمهندسيين متخصصون فى
+                    جميع اجهزة وايت ويل هدفنا دائما هو ارضائكم
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="right-side">
+          <h2 class="unselectable">صيانة اجهزة وايت ويل</h2>
+          <p class="unselectable">افضل خدمة صيانة فى مصر</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
