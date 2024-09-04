@@ -68,10 +68,21 @@
   .services-container br {
     display: none;
   }
+
+  .services-container .companies-container {
+    grid-template-columns: repeat(3, minmax(150px, 200px));
+    justify-content: center;
+  }
+}
+
+@media (max-width: 665px) {
+  .services-container .companies-container {
+    grid-template-columns: repeat(2, minmax(150px, 200px)) !important;
+  }
 }
 
 @media (max-width: 800px) {
-  .companies-container {
+  .companies-container, .services-container .companies-container {
     grid-template-columns: repeat(3, minmax(150px, 200px));
   }
 }
