@@ -5,6 +5,8 @@ const companiesContainer = document.getElementById("companies-container");
 const cards = document.getElementById("cards");
 const faqsContainer = document.querySelector(".faq-container");
 const faqs = document.querySelectorAll(".faq");
+const iconCircle = document.getElementById("icon-circle");
+const numbers = document.getElementById("numbers");
 
 class Product {
   constructor(src) {
@@ -123,6 +125,10 @@ app.render();
 const togglingActiveClass = function (element) {
   element.classList.toggle("active");
 };
+
+iconCircle.addEventListener("click", () => {
+  togglingActiveClass(numbers);
+});
 
 burgerIcon.addEventListener("click", () => {
   togglingActiveClass(header);

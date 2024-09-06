@@ -311,6 +311,61 @@ body.active {
 .companies-container div.companylogo15 {
   grid-area: 4 / -4;
 }
+
+.numbers-cont {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  display: grid;
+}
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+.numbers {
+  position: absolute;
+  padding: 1em;
+  background-color: #fff;
+  border-radius: 1em;
+  border-bottom-right-radius: 0;
+  box-shadow: 0 0 10px #ccc;
+  transform: translate(150%, -100px);
+  transition: all 0.3s ease-in-out;
+}
+
+.numbers a:link,
+.numbers a:visited,
+.nav-numbers a:link,
+.nav-numbers a:visited {
+  color: var(--black-color);
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-numbers a:link,
+.nav-numbers a:visited {
+  font-size: 1.3em;
+}
+
+.numbers a:hover,
+.numbers a:active,
+.nav-numbers a:hover,
+.nav-numbers a:active {
+  color: var(--new-primary-color);
+}
+
+.numbers-cont:hover .numbers,
+.numbers.active {
+  transform: translate(-65%, -100px);
+}
 /* End of Header section */
 
 .unselectable {

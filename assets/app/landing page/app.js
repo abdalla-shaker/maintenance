@@ -4,6 +4,8 @@ const overLay = header.querySelector(".nav-overLay");
 const companiesContainer = document.getElementById("companies-container");
 const cards = document.getElementById("cards");
 const companiesWeServe = document.getElementById("companies-we-serve");
+const iconCircle = document.getElementById("icon-circle");
+const numbers = document.getElementById("numbers");
 
 class Product {
   constructor(src) {
@@ -125,6 +127,10 @@ app.render();
 const togglingActiveClass = function (element) {
   element.classList.toggle("active");
 };
+
+iconCircle.addEventListener("click", () => {
+  togglingActiveClass(numbers);
+});
 
 burgerIcon.addEventListener("click", () => {
   togglingActiveClass(header);
