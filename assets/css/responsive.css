@@ -69,6 +69,10 @@
     display: none;
   }
 
+  .services-container .card-text:last-child br {
+    display: block;
+  }
+
   .services-container .companies-container {
     grid-template-columns: repeat(3, minmax(150px, 200px));
     justify-content: center;
@@ -82,7 +86,8 @@
 }
 
 @media (max-width: 800px) {
-  .companies-container, .services-container .companies-container {
+  .companies-container,
+  .services-container .companies-container {
     grid-template-columns: repeat(3, minmax(150px, 200px));
   }
 }
