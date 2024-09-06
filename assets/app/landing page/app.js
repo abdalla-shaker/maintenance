@@ -38,8 +38,10 @@ class SetProduct {
       const prodSrcWithoutSpaces = prod.imgSrc.replace(/\s/g, "");
       imgCont.className = prodSrcWithoutSpaces;
       imgCont.innerHTML = `
-      <a href="${prod.imgSrc}.html">
-        <img src="assets/images/landing page/${prod.imgSrc}.webp" alt="logo image" class="${prodSrcWithoutSpaces}"/>
+      <a href="${renamingSites(prod.imgSrc)}.html">
+        <img src="assets/images/landing page/${
+          prod.imgSrc
+        }.webp" alt="logo image" class="${prodSrcWithoutSpaces}"/>
       </a>
       `;
       generatedElements.push(imgCont);
@@ -110,6 +112,40 @@ class Card {
     }
   }
 }
+
+const renamingSites = (number) => {
+  if (number === "company logo 1") {
+    return "lg";
+  } else if (number === "company logo 2") {
+    return "zanussi";
+  } else if (number === "company logo 3") {
+    return "sharp";
+  } else if (number === "company logo 4") {
+    return "toshiba";
+  } else if (number === "company logo 5") {
+    return "samsung";
+  } else if (number === "company logo 6") {
+    return "ariston";
+  } else if (number === "company logo 7") {
+    return "white whale";
+  } else if (number === "company logo 8") {
+    return "fresh";
+  } else if (number === "company logo 9") {
+    return "white point";
+  } else if (number === "company logo 10") {
+    return "whirlpool";
+  } else if (number === "company logo 11") {
+    return "general electric";
+  } else if (number === "company logo 12") {
+    return "alaska";
+  } else if (number === "company logo 13") {
+    return "beko";
+  } else if (number === "company logo 14") {
+    return "unionair";
+  } else if (number === "company logo 15") {
+    return "kiriazi";
+  }
+};
 
 class App {
   render() {
