@@ -374,7 +374,7 @@ body.active {
   margin-top: 4em;
   position: relative;
   isolation: isolate;
-  padding: 0 0 1em;
+  padding: 10em 0 1em;
 }
 
 .footer::before {
@@ -384,22 +384,33 @@ body.active {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: red; /* Light background color */
-  clip-path: polygon(0 100%, 100% 100%, 100% 30%, 0 50%);
+  background: var(--cards-background-color);
+  background: var(--left-to-right-background-gradient);
+  clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 50%);
   z-index: -1;
 }
 
 .footer-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 5em;
 }
 
 .footer-container .left-side h2 {
   margin-bottom: 0.5em;
+  color: var(--white-color);
 }
 
-.footer-container .left-side p {
+.footer-container .left-side p,
+.footer-container .right-side p {
   margin-bottom: 1.6em;
+  color: var(--gray-color);
+}
+
+.footer-container .right-side .logo {
+  position: absolute;
+  margin-bottom: 1em;
+  top: 40px;
 }
 /* End of Footer section */
 

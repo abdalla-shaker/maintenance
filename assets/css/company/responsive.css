@@ -82,6 +82,10 @@
     align-items: center;
   }
 
+  .hero .hero-text p {
+    font-weight: 600;
+  }
+
   .hero .hero-text br {
     display: none;
   }
