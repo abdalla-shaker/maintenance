@@ -320,10 +320,14 @@ body.active {
   z-index: 2;
 }
 
+.numbers-cont svg {
+  fill: #fff !important;
+}
+
 .icon-circle {
   width: 60px;
   height: 60px;
-  background-color: #fff;
+  background-color: #65a30d;
   box-shadow: 0 0 10px #ccc;
   border-radius: 50%;
   display: grid;
@@ -354,13 +358,17 @@ body.active {
 .nav-numbers a:link,
 .nav-numbers a:visited {
   font-size: 1.3em;
+  color: var(--new-primary-color);
 }
 
 .numbers a:hover,
-.numbers a:active,
+.numbers a:active {
+  color: var(--new-primary-color);
+}
+
 .nav-numbers a:hover,
 .nav-numbers a:active {
-  color: var(--new-primary-color);
+  color: var(--black-color);
 }
 
 .numbers-cont:hover .numbers,
