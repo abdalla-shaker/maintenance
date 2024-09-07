@@ -382,7 +382,7 @@ body.active {
   margin-top: 4em;
   position: relative;
   isolation: isolate;
-  padding: 10em 0 1em;
+  padding: 10em 0 4em;
 }
 
 .footer::before {
@@ -411,6 +411,7 @@ body.active {
 
 .footer-container .left-side p,
 .footer-container .right-side p {
+  font-size: 0.9em;
   margin-bottom: 1.6em;
   color: var(--gray-color);
 }
